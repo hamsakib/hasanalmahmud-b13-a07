@@ -34,7 +34,8 @@ npm install
 npm run dev
 ```
 
-Open https://hasanalmahmud-b13-a07.vercel.app/ in your browser.
+Open http://localhost:5173 in your browser to see your own local run copy of my website.
+Open https://hasanalmahmud-b13-a07.vercel.app/ in your browser to see my website.
 
 ## 📦 Build for Production
 
