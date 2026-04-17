@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "picture": "https://api.dicebear.com/9.x/avataaars/svg?seed=Sarah&backgroundColor=b6e3f4",
+    "email": "sarah.chen@email.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in freshman year. Always there with great advice and a good laugh.",
+    "goal": 14,
+    "next_due_date": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Johnson",
+    "picture": "https://api.dicebear.com/9.x/avataaars/svg?seed=Marcus&backgroundColor=c0aede",
+    "email": "marcus.j@email.com",
+    "days_since_contact": 25,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "Former manager turned mentor. Incredibly sharp and always pushing me forward.",
+    "goal": 30,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 3,
+    "name": "Priya Sharma",
+    "picture": "https://api.dicebear.com/9.x/avataaars/svg?seed=Priya&backgroundColor=d1d4f9",
+    "email": "priya.sharma@email.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["neighbor", "hobby"],
+    "bio": "We bond over books and cooking. A genuinely kind and thoughtful person.",
+    "goal": 21,
+    "next_due_date": "2026-05-01"
+  },
+  {
+    "id": 4,
+    "name": "David Park",
+    "picture": "https://api.dicebear.com/9.x/avataaars/svg?seed=David&backgroundColor=ffdfbf",
+    "email": "david.park@email.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["family", "childhood"],
+    "bio": "Childhood best friend. Drifted a little but always picks up right where we left off.",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 5,
+    "name": "Emma Wilson",
+    "picture": "https://api.dicebear.com/9.x/avataaars/svg?seed=Emma&backgroundColor=ffd5dc",
+    "email": "emma.wilson@email.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["work", "creative"],
+    "bio": "Former colleague, great mentor. Inspires me creatively every conversation.",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 6,
+    "name": "Carlos Rivera",
+    "picture": "https://api.dicebear.com/9.x/avataaars/svg?seed=Carlos&backgroundColor=c0aede",
+    "email": "carlos.r@email.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["gym", "friend"],
+    "bio": "Gym buddy turned close friend. Motivating, funny, and brutally honest.",
+    "goal": 21,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 7,
+    "name": "Aisha Rahman",
+    "picture": "https://api.dicebear.com/9.x/avataaars/svg?seed=Aisha&backgroundColor=b6e3f4",
+    "email": "aisha.r@email.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["college", "travel"],
+    "bio": "Travel partner and college roommate. Always planning the next adventure.",
+    "goal": 14,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 8,
+    "name": "Tariq Hassan",
+    "picture": "https://api.dicebear.com/9.x/avataaars/svg?seed=Tariq&backgroundColor=ffdfbf",
+    "email": "tariq.h@email.com",
+    "days_since_contact": 50,
+    "status": "overdue",
+    "tags": ["tech", "college"],
+    "bio": "We bonded over late-night coding sessions. Still the most reliable hacker I know.",
+    "goal": 21,
+    "next_due_date": "2026-03-05"
+  }
+]
