@@ -1,16 +1,43 @@
-# React + Vite
+# KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal friendship management app that helps you track connections, log interactions, and make sure no important friendship slips away.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React 19** — UI library
+- **Vite** — Build tool and dev server
+- **React Router DOM v7** — Client-side routing
+- **Tailwind CSS v4** — Utility-first styling
+- **Recharts** — Pie chart for analytics
+- **React-Toastify** — Toast notifications
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Friend Tracking** — View all your friends as cards with their contact status (On Track, Almost Due, Overdue), tags, and days since last contact
+2. **Interaction Logging** — Log Calls, Texts, and Video chats from any friend's detail page; entries appear instantly in the Timeline
+3. **Friendship Analytics** — A dedicated Stats page with a Recharts donut chart showing your interaction breakdown and friend status progress bars
 
-## Expanding the ESLint configuration
+## 📄 Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Page | Route | Description |
+|------|-------|-------------|
+| Home | `/` | Banner, summary stats, and friend card grid |
+| Friend Detail | `/friend/:id` | Profile, stats, relationship goal, and quick check-in |
+| Timeline | `/timeline` | Chronological log of all interactions with filter |
+| Stats | `/stats` | Pie chart and analytics overview |
+| 404 | `*` | Friendly not-found page |
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```

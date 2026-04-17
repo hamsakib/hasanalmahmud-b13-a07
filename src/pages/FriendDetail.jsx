@@ -70,13 +70,20 @@ export default function FriendDetail() {
 
             <p className="text-[12.5px] text-[#5a7a68] leading-relaxed mt-4 mb-3">{friend.bio}</p>
 
-            <div className="flex flex-wrap justify-center gap-1.5 mb-5">
+            <div className="flex flex-wrap justify-center gap-1.5 mb-3">
               {friend.tags.map(tag => (
                 <span key={tag} className="text-[11px] px-2.5 py-0.5 rounded-full bg-[#f0f5f2] text-[#2d6a4f] font-semibold capitalize">
                   {tag}
                 </span>
               ))}
             </div>
+
+            <a
+              href={`mailto:${friend.email}`}
+              className="text-[12px] text-[#2d6a4f] hover:text-[#1a3a2a] font-medium break-all transition-colors mb-4"
+            >
+              {friend.email}
+            </a>
 
             {/* Action buttons */}
             <div className="w-full flex flex-col gap-2 border-t border-[#e6ede9] pt-4">
